@@ -43,7 +43,7 @@ The extension uses Chrome's **`declarativeNetRequest`** API to block specific UR
 
 To block additional ad networks:
 
-1. Open the `rules.json` file.
+1. Open the `ruleset.json` file.
 2. Add new rules with the pattern for the ad network you want to block (e.g., `*://*.exampleadnetwork.com/*`).
 3. Reload the extension in Chrome (go to `chrome://extensions/`).
 
@@ -75,7 +75,7 @@ Feel free to fork the repository and **submit pull requests** if you want to:
 
 Add more ad networks to the block list.
 
-Enhance the UI or add features (like toggling ad blocking on/off).
+Add new features (like a toggle to enable/disable ad blocking).
 
 Improve performance or extend the functionality.
 
